@@ -1,0 +1,137 @@
+.hero
+{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:35px;
+}
+.hero h1
+{
+    text-align: center;
+    
+    font-size: 50px;
+    font-weight: 600;
+}
+.hero h1 span
+{
+    background: linear-gradient(270deg, #DF8908 10%,#B415FF 100%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p
+{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.hero-action
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.hero-connect
+{
+    /* margin-top: 20px; */
+    padding: 12px 20px;
+    border-radius: 50px;
+    background:linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+.hero-resume
+{
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+}
+.hero-connect:hover
+{
+    border: 2px solid white;
+}
+.hero-resume:hover
+{
+    border-color: #B415FF;
+}
+@media (max-width: 1200px) {
+    .hero {
+      margin-top: 100px;
+      gap: 25px;
+    }
+    .hero h1 {
+      font-size: 40px;
+    }
+    .hero p {
+      width: 60%;
+      font-size: 20px;
+    }
+    .hero-action {
+      gap: 15px;
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 900px) {
+    .hero {
+      margin-top: 80px;
+      gap: 20px;
+    }
+    .hero h1 {
+      font-size: 35px;
+    }
+    .hero p {
+      width: 70%;
+      font-size: 18px;
+    }
+    .hero-action {
+      gap: 10px;
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 600px) {
+    .hero {
+      margin-top: 60px;
+      gap: 15px;
+    }
+    .hero h1 {
+      font-size: 28px;
+    }
+    .hero p {
+      width: 80%;
+      font-size: 16px;
+    }
+    .hero-action {
+      flex-direction: column;
+      gap: 10px;
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 400px) {
+    .hero {
+      margin-top: 40px;
+      gap: 10px;
+    }
+    .hero h1 {
+      font-size: 22px;
+    }
+    .hero p {
+      width: 90%;
+      font-size: 14px;
+    }
+    .hero-action {
+      gap: 5px;
+      font-size: 14px
+    }
+  }
+        
